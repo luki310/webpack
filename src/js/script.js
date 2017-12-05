@@ -1,3 +1,5 @@
+import "bootstrap/scss/bootstrap.scss";
+import "../sass/style.scss";
 import EventEmitter from "./EventEmitter.js";
 
 class Database extends EventEmitter {
